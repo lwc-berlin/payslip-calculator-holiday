@@ -42,7 +42,7 @@ export default function Home() {
         <h2 className="font-bold text-3xl">Holidays calculation:</h2>
         <p>You will need the last 4 payslips</p>
         <p>
-          For example if you took holidays in April you will receive April's
+          For example if you took holidays in April you will receive April{`'s`}
           payslip in May.
         </p>
         <p>Then you will need payslips from:</p>
@@ -57,7 +57,7 @@ export default function Home() {
         <p>You will also need to check especific parts of your payslip:</p>
         <ul className="list-disc px-4">
           <li>
-            Days of holidays (in April's payslip in the above examnple with
+            Days of holidays (in April{`'s`} payslip in the above examnple with
             label: <b>Urlaub Tage</b>)
           </li>
           <li>
